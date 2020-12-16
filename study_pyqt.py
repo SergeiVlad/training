@@ -24,7 +24,7 @@ class MyTableWidget(QWidget):
  
     def __init__(self, parent):   
         super(QWidget, self).__init__(parent)
-        self.layout = QVBoxLayout(self)
+        self.layout = QVBoxLayout(self)JJ
  
         # Initialize tab screen
         self.tabs = QTabWidget()
